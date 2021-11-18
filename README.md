@@ -27,4 +27,4 @@ Portanto, define-se como TARGET deste projeto a **insuficiência cardíaca na po
 
 
 
-_This Project is currently being held by Enricco Gemha, Paola BBS Friedel, Rafael L Coca, Marcelo R Barranco_
+_This Project is currently being held by Enricco Gemha, Paola BBS Friedel, Rafael C Leventhal, Marcelo R Barranco_
