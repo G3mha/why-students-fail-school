@@ -1,6 +1,6 @@
 # Projeto2 de Ciência de Dados (Data Science class Project2)
 
-_For the English Version of this file click here[www.google.com]_
+_For the English Version of this file click here[link_em_construcao]_
 
 O objetivo deste PROJETO é prever o comportamento do target (variável principal e dependente), neste caso, em função de múltiplas features (variáveis secundárias e independentes), que influenciam em seu comportamento.
 
@@ -21,33 +21,30 @@ A Database desse projeto foi obtida através do link: https://www.kaggle.com/dip
 
 ## FEATURES
 As features deste projeto são as seguintes:
-- SEXO ('F' - feminino ou 'M' - masculino)
-- IDADE - student's age (numeric: from 15 to 22)
-- ENDEREÇO - student's home address type (binary: 'U' - urban or 'R' - rural)
-- TAMANHO DA FAMÍLIA - family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3)
-- SITUAÇÃO DOS PAIS - parent's cohabitation status (binary: 'T' - living together or 'A' - apart)
-- EDUCAÇÃO DA MÃE - mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ secondary education or 4 â€“ higher education)
-- EDUCAÇÃO DO PAI - father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ secondary education or 4 â€“ higher education)
-- TRABALHO DA MÃE - mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
-- TRABALHO DO PAI - father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
-- ESCOLHA DA ESCOLA - reason to choose this school (nominal: close to 'home', school 'reputation', 'course' preference or 'other')
-
-- TEMPO DE VIAGEM - home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)
-- HORAS DE ESTUDO - weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)
-- REPROVAÇÕES PASSADAS - number of past class failures (numeric: n if 1<=n<3, else 4)
-- AULAS DE REFORÇO GRATUITAS - extra educational support (binary: yes or no)
-- SUPORTE FAMILIAR PARA ESTUDO - family educational support (binary: yes or no)
-- AULAS DE REFORÇO PAGAS - extra paid classes within the course subject (Math or Portuguese) (binary: yes or no)
-- ATIVIDADES EXTRACURRICULARES - extra-curricular activities (binary: yes or no)
-- INTERNET - Internet access at home (binary: yes or no)
-- RELACIONAMENTO ROMÂNTICO - with a romantic relationship (binary: yes or no)
-- RELACIONAMENTO FAMILIAR - quality of family relationships (numeric: from 1 - very bad to 5 - excellent)
-- TEMPO LIVRE - free time after school (numeric: from 1 - very low to 5 - very high)
-- SAIR COM AMIGOS - going out with friends (numeric: from 1 - very low to 5 - very high)
-- ÁLCOOL CONSUMIDO EM DIAS ESCOLARES - workday alcohol consumption (numeric: from 1 - very low to 5 - very high)
-- SAÚDE - current health status (numeric: from 1 - very bad to 5 - very good)
-- FALTAS - number of school absences (numeric: from 0 to 93)
-- MEDIA FINAL - final grade (numeric: from 0 to 20, output target)
+- sexo - sexo do estudante (binário: 'F' - feminino a 'M' - masculino)
+- idade - idade do estudante (numérico: de 15 a 22)
+- endereco - tipo de endereço do estudante (binário: 'U' - urbano ou 'R' - rural)
+- tamanho - tamanho da família do estudante (binário: 'LE3' - menor ou igual a 3 ou 'GT3' - maior que 3)
+- parents - pais divorciados ou não (binário: 'T' - vivendo juntos ou 'A' - separados)
+- mae_escolaridade - escolaridade da mãe (numérico: 0 - nenhum, 1 - educação básica (4º ano), 2 - 5º ao 9º ano, 3 - ensino médio ou 4 - curso superior)
+- pai_escolaridade - escolaridade do pai (numérico: 0 - nenhum, 1 - educação básica (4º ano), 2 - 5º ao 9º ano, 3 - ensino médio ou 4 - curso superior)
+- mae_ocupacao - trabalho da mãe (nominal: 'teacher', 'health' relacionado, civil 'services', 'at_home' ou 'other')
+- pai_ocupacao - trabalho do pai (nominal: 'teacher', 'health' relacionado, civil 'services', 'at_home' ou 'other')
+- viagem - tempo de viagem até a escola (numérico: 1 - <15 min., 2 - 15 a 30 min., 3 - 30 min. a 1 hour, ou 4 - >1 hour)
+- tempo_estudo - tempo semanal de estudo (numérico: 1 - <2 hour, 2 - 2 a 5 hour, 3 - 5 a 10 hour, ou 4 - >10 hour)
+- reprovacoes - número de reprovações em outros anos (numérico: 'n' se 1<='n'<3, outro 4)
+- reforco_gratuito - aulas de reforço gratuito (binário: 'yes' ou 'no')
+- suporte_familiar - suporte educacional da família (binário: 'yes' ou 'no')
+- reforco_pago - aulas de reforço pago (binário: 'yes' ou 'no')
+- extracurriculares - atividade extracurricular (binário: 'yes' ou 'no')
+- internet - acesso à internet (binário: 'yes' ou 'no')
+- relac_romantico - ter um relacionamento romântico (binário: 'yes' ou 'no')
+- relac_familiar - qualidade do relacionamento familiar (numérico: de 1 - muito ruim a 5 - excelente)
+- sair - sair com os amigos (numérico: de 1 - muito baixo a 5 - muito alto)
+- alcool_semana - consumo de álcool em dias de aula (numérico: de 1 - muito baixo a 5 - muito alto)
+- saude - status atual de saúde (numérico: de 1 - muito ruim a 5 - muito bom)
+- faltas - número de faltas na escola (numérico: de 0 a 93)
+- media_final - média final do aluno (numérico: de 0 a 20)
 
 
 
