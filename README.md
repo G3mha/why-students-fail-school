@@ -46,6 +46,11 @@ As features deste projeto são as seguintes:
 - faltas - número de faltas na escola (numérico: de 0 a 93)
 - media_final - média final do aluno (numérico: de 0 a 20)
 
+## TÉCNICA DE PREVISÃO
+A técnica de previsão que será adotada é **to-do**.
+
+## MODELOS DE PREDIÇÃO ADOTADOS
+Os modelos de predição adotados foram: **to-do**.
 
 
 _Este Projeto está atualmente sendo mantido por Enricco Gemha, Paola BBS Friedel, Rafael C Leventhal, Marcelo R Barranco_
