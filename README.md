@@ -1,6 +1,4 @@
-# Projeto2 de Ciência de Dados (Data Science class Project2)
-
-_For the English Version of this file click here
+# Classificador de Base de Dados: Porque alunos reprovam?
 
 O objetivo deste PROJETO é prever o comportamento do target (variável principal e dependente), neste caso, em função de múltiplas features (variáveis secundárias e independentes), que influenciam em seu comportamento.
 
