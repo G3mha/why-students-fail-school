@@ -32,4 +32,4 @@ o que explica eu ter uma quantidade maior de commits que meus colegas.
 Portanto, o grupo formado por nós no projeto 2 de Cdados garante e reafirma que:
 **todos os membros tiveram igual contribuição na construção desse projeto.**
 
-_Este Projeto está atualmente sendo mantido por Enricco Gemha, Paola BBS Friedel, Rafael C Leventhal, Marcelo R Barranco_
+_Este Projeto está atualmente sendo mantido por Enricco Gemha_
